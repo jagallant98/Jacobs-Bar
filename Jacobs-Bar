@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob's Home Bar</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-2T7Qq3y29YvPI9iAqv8jNn2q3N30r/Aa15wNn8t/vIj+lsGCrUnvX9p5l5m5A/dZJoXBKehvQ2WwJ8E5vvilKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <style>
+    /* Add your custom CSS here */
+    body {
+      background-color: #141414;
+      color: #E0E0E0;
+    }
+    .navbar {
+      background-color: #0F0E17;
+    }
+    .navbar-brand {
+      color: #FF8906;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .navbar-brand:hover {
+      color: #E0E0E0;
+    }
+    .navbar-nav .nav-link {
+      color: #E0E0E0;
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link:hover {
+      color: #FF8906;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: #E0E0E0;
+      font-weight: bold;
+    }
+    .card {
+      background-color: #1F1E2E;
+      color: #E0E0E0;
+    }
+    .card-title {
+      color: #FF8906;
+      font-weight: bold;
+    }
+    .card-text {
+      color: #E0E0E0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Responsive menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jacob's Home Bar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" 
+               href="#">Cocktail Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cocktail menu -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Barrel Aged Negroni</h5>
+        <p class="card-text">Aged for several weeks in oak barrels, this classic cocktail is made with gin, Campari, and sweet vermouth. Served on the rocks with an orange peel garnish.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Corpse Reviver #2</h5>
+        <p class="card-text">A tart and refreshing cocktail made with gin, lemon juice, orange liquor, and a rinse of absinthe. Served up in a chilled glass with a lemon twist.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Gimlet</h5>
+        <p class="card-text">A simple yet delicious cocktail made with gin, fresh lime juice, and house simple syrup. Served up or on the rocks with a lime garnish.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Old Fashioned</h5>
+        <p class="card-text">A classic cocktail made with bourbon, house simple syrup, bitters, and a twist of citrus. Served on the rocks with an orange peel and cherry garnish.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
